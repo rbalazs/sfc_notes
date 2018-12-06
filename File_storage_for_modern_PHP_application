@@ -18,3 +18,10 @@ By Frank de Jonge
 PHP + FS
 - RW is easy, beépített függvények
 - glob/scandir/readdir(opendir( - melyik a jó?? 
+- nagy fájlok fread/fwrite, nem kézenfekvő, hibakezeléssel min 14 sor
+
+Flysystem
+- Egységes felület, a kódban nem kompenzálsz a konkrét tároló sajátosságaira, egy egységes és absztrakt nyelvet beszélsz (másold, írd, töröld, ..)-
+- Stream támogatás: kis memóriával tudsz pl. több gigát Azure-ból AWS-be bemásolni.
+- Relativ útvonalak - mindennek van. 
+	Minden kap egy konfigolt gyökeret, de neked nem kell a kódban csak relatív útvonalakkal dolgoznod.

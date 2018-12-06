@@ -11,5 +11,5 @@ Minden üzenet feldolgozása alapértelmezetten szinkron stilusban történik.
 GetHandlerMessage : iterable - yield-el, így egy kulcs többször is szerepelhet.
 Dobozból konifgolható különböző buszokra, az elnevezés is lehet bármi.
 Kapsz debug toolbar segítőket.
-
+Natív AMPQ lib támogatás.
 

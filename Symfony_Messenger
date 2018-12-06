@@ -13,3 +13,11 @@ Dobozból konifgolható különböző buszokra, az elnevezés is lehet bármi.
 Kapsz debug toolbar segítőket.
 Natív AMPQ lib támogatás.
 
+Felkapta a közösség, 33 isssue, 150 PR, 21 contrib a hat hónapja bejelentett MERGE óta.
+100.000+ telepítése.
+Jönnek a tweak-ek:
+	- Envelopes: Le lehet bélyegzőzni, rá lehet nyomni hogy az üzenetre hogy:
+		- Received, Sent, Handled
+	- A latest-ben a már Envelope jön vissza a MessageBusInterface dispatch()-ről, így
+		- Dispatch után nézegetheted, hogy hol jár már, hol nem. 
+

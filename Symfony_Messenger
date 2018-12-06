@@ -4,9 +4,12 @@ What is symfony message? - Bármi serializalhato PHP objektum.
 Massage bus? - Ahol a dispatch történik
 Message Handler? - Üzleti logikát futtat, amikor az üzenetről tudomása lesz.
 Transport? Lehessen 3rd party is.
+Worker: bin/console messenger:consume-messages - long running process
 *insert pic from design
 
 Minden üzenet feldolgozása alapértelmezetten szinkron stilusban történik.
 GetHandlerMessage : iterable - yield-el, így egy kulcs többször is szerepelhet.
+Dobozból konifgolható különböző buszokra, az elnevezés is lehet bármi.
+Kapsz debug toolbar segítőket.
 
 

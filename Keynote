@@ -1,0 +1,25 @@
+##SymfonyCon##
+
+LISBON 2018
+December 6-8
+
+
+900 ember, teltház
+25 előadó - *insert nagyobb nevek
+
+*insert state of local web servers img
+
+*insert PHP built in server img
+
+Rövid termékismertető: Symfony local webserver
+ - nem kell root
+ - fpm
+ - http-2
+ - fire & forget
+ - http link, pre-load, push támogatás
+ - tud valtani php verziot
+ - minden dotenv fajlba, nem koszolja a global namespace-et
+ - humanozed log tailer
+ - helyi TLS
+ - helyi domain nevek
+

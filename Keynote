@@ -21,5 +21,8 @@ Rövid termékismertető: Symfony local webserver
  - minden dotenv fajlba, nem koszolja a global namespace-et
  - humanozed log tailer
  - helyi TLS
- - helyi domain nevek
-
+ - helyi domain nevek, proxy
+  - nem kell /etc/host -ba nyulkalni * insert images
+  - van wildcard support
+  - on demand local certificates
+ -  

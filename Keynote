@@ -27,4 +27,9 @@ Rövid termékismertető: Symfony local webserver
   - van wildcard support
   - on demand local certificates
  - workers, daemons
-  -  
+  - `symfony run -d insert_long_running_command` 
+ - az egész cucc integrált SymfonyCloud-ra
+  - a local server <-> SymfonyCloud fullosan atjarhato
+  - master mindig a PROD leirasa
+  - es lokál fejlesztéshez a resource-ok? - a cli tool-al tudsz deployolni mindent, db-t is. csinalsz egy fb-et, beleirod hogy mi kell, deploy, és kitesz non-prodba
+ -

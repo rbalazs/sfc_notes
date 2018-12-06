@@ -5,3 +5,16 @@ By Frank de Jonge
 
 - ha van egy "uploads" mappád kikaptál: honna jöttek? törölhetőek-e?
 - Feedback loop: user adoptions után kell igazából egy második nagy tervezés
+- Lehet nested vagy linear. *Bazsek, ennek nézzél utána.
+	- mi a közös? csak az hogy vannak fájlok. lineárba pl mappák nincsenek.
+	- FS = NAS
+		- AWS Volume, DO Blob store, Gluster
+	- Not Really FS
+		- WebDav, Prosgres Large Object Storage
+- "A komplexitás abból jön, hogy egy dolognak két feladata lesz."
+- FS - CRUD only + inspect&list (nem access controll, konvertálás, ..) - CRUDLI : )
+- A felhő (s3, ..) lineáris rendszerint.
+
+PHP + FS
+- RW is easy, beépített függvények
+- glob/scandir/readdir(opendir( - melyik a jó?? 

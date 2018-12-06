@@ -1,0 +1,14 @@
+
+#How static PHP analyzer changed the way I look  at code
+Nicole Cordes
+
+A csilláról is lógnak, teltház.
+Tooling:
+- PHPStan
+	- Inkább a CLI oldala erős
+- PHPMD
+- Code climate:
+	- Code analysis as a Service
+	- Easy to integrate with github projects
+	- Nice dashboard.
+

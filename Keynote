@@ -34,3 +34,5 @@ Rövid termékismertető: Symfony local webserver
   - es lokál fejlesztéshez a resource-ok? - a cli tool-al tudsz deployolni mindent, db-t is. csinalsz egy fb-et, beleirod hogy mi kell, deploy, és kitesz non-prodba
   - local tld: .wip, !nice
  - Azt mondja a fabpot, hogy a DB es egyebb resource-ok jöjjenek remote-bol `symfony tunnel:open`
+ - Symfony ajanlas: prod dataval kell debuggolni, lokal fajlokkal. ok masolnak mindent, adatot, cache-et, es a lokal kódod arra mászik fel
+ - 

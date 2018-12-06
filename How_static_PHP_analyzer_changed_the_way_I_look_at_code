@@ -11,4 +11,10 @@ Tooling:
 	- Code analysis as a Service
 	- Easy to integrate with github projects
 	- Nice dashboard.
-
+- SonarCloud:
+	- SonarQube as a Service
+	- Alsa comes with nice dashboard.
+	- Megeszi a code coverage riportokat is.
+	- Nyit issue.kat is.
+Measurment:
+- Általános dolgok, változó és metódus nevek, paraméterek száma.

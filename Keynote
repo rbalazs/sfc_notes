@@ -23,6 +23,8 @@ Rövid termékismertető: Symfony local webserver
  - helyi TLS
  - helyi domain nevek, proxy
   - nem kell /etc/host -ba nyulkalni * insert images
+  - local proxy, de nem kell az os network-ot babralni
   - van wildcard support
   - on demand local certificates
- -  
+ - workers, daemons
+  -  

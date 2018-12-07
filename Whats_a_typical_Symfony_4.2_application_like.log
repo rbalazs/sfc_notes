@@ -36,4 +36,10 @@ What is a Symfony Application is built around?
 - cooke_samesite: lax is possible by config
 	- lax is bc, recommended to set
 - UTF8 routing is possible with config
+- upgradize! *insert image easy if on FLEX already
+	- not in FLEX? - fully explicit style is still OK
+		- composer req symfony/flex	&& composer fix-recepies
+- Lazy proxy classes, for db connections for example, fully configable *insert image
+- 
+- 
 

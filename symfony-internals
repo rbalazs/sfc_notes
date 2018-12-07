@@ -4,11 +4,21 @@ HTTP objects:
 - Contollers
 	- Külön mappa, nem az (public) ami ki van szolgalva
 - Event loop - middleware-ek:
+	- Auth middleware
+		- Tuzfal: tudjuk-e ki vagy, vedi az utvonalat
 	- Security middleware
+		- Voters: megteheted-e amit akarsz, vedi a resource-ot
 	- Router middleware kulon class, nagy switch
 		- Hogy lesz dinamikus? - regex ftw
 	- Cache middleware
 		- Itt derül ki, hogy azert jo hogy middleware-ek, mert a cache middleware-nek meg kell szakitania a lancot, es rogton tolhatja vissza a response-ot
+	- Autowiring middleware
+		- public vs private service-ek:
+			- lehet minden service-kent definialva, a kernel kidobja az ossesz privat service-et, ami nincs bekotve egy publikusba
+	- Toolbar middleware
+		- Egy kis HTML a lap aljara, pl. naplozza a cache layer hasznalatot.
+	- Exception middleware
+		- Mindent becsomagol egy try-catch -be, es elkapja a kivetelt, osszeszedi a stack trace-et, csinal hibaoldalt, ...
 - Kernel
 	- Ide szervezi a middleware-ket.
 	- Betolti a YaML-ket, betolti a service-ket, fordit, cache-el.

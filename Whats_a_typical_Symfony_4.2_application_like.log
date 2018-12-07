@@ -25,4 +25,15 @@ What is a Symfony Application is built around?
 			- '%env(key:CONFIG,json:file:PATH_TO_SECRET)%'
 	- use dontenv for local and default
 		- .dist fashion
-	- 
+	- REAL ENV VARS ARE NEVER OVERRIDDEN
+		- use multiple files:
+			- .env - commit - defaults
+			- .env.local - ignore - local values
+			- .env.test - commit - defaults
+			- .env.test.local - ignore - local values
+		- overrides each other as read
+- Cookies can be set to secure mode by default via config
+- cooke_samesite: lax is possible by config
+	- lax is bc, recommended to set
+- UTF8 routing is possible with config
+

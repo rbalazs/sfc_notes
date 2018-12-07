@@ -20,6 +20,7 @@ HTTP objects:
 	- Exception middleware
 		- Mindent becsomagol egy try-catch -be, es elkapja a kivetelt, osszeszedi a stack trace-et, csinal hibaoldalt, ...
 - Kernel
-	- Ide szervezi a middleware-ket.
-	- Betolti a YaML-ket, betolti a service-ket, fordit, cache-el.
-	- 
+	- Betolti a YaML-ket, betolti a service-ket, fordit, cache-el. 
+	- Vegigfuttatja a middleware-ket.
+
+

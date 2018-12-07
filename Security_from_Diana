@@ -8,7 +8,9 @@ User access-t gondoljuk ujra:
 		- man in the middel tamadasoknak lehet kiteve
 	- load the user - reach for user data (db, API) 
 	- Custom User Provider - for example from API
-	- Authentication Providers - its like a middleware, runs before the controller
+- Authentication Providers - its like a middleware, runs before the controller
 	- Guard authenticator - dont use the built in one
 		- class xyAuthenticator extends AbstractGuardAuthenticator
 		- security.yml -ban konfigolhato
+- User Roles
+	- ACL: role-oknak van hierarchiaja, tudnak orokolni egymastol.

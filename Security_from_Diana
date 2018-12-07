@@ -1,0 +1,9 @@
+
+Diana
+
+User access-t gondoljuk ujra:
+- van a user -> van az auth lepes (authentication) -> (authentication nem authorization) -> nyilik a sessoin -> features access -> data access
+- User Provider: 
+	- reload from session - minden req vegen serializalva bemegy a user obj. a sessionbe, innen epiti ujra
+		- man in the middel tamadasoknak lehet kiteve
+	-  

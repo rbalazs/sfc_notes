@@ -6,4 +6,6 @@ User access-t gondoljuk ujra:
 - User Provider: 
 	- reload from session - minden req vegen serializalva bemegy a user obj. a sessionbe, innen epiti ujra
 		- man in the middel tamadasoknak lehet kiteve
-	-  
+	- load the user - reach for user data (db, API) 
+	- Custom User Provider - for example from API:w
+

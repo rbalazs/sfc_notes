@@ -1,0 +1,15 @@
+
+
+HTTP objects:
+- Contollers
+	- Külön mappa, nem az (public) ami ki van szolgalva
+- Event loop - middleware-ek:
+	- Security middleware
+	- Router middleware kulon class, nagy switch
+		- Hogy lesz dinamikus? - regex ftw
+	- Cache middleware
+		- Itt derül ki, hogy azert jo hogy middleware-ek, mert a cache middleware-nek meg kell szakitania a lancot, es rogton tolhatja vissza a response-ot
+- Kernel
+	- Ide szervezi a middleware-ket.
+	- Betolti a YaML-ket, betolti a service-ket, fordit, cache-el.
+	- 

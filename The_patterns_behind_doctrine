@@ -1,0 +1,12 @@
+Doctrine3 is on its way, but lets talk about Doctrin2.
+
+Enities, connections, custom table names, cascading operation.
+Lazy loading, pros and cons.
+Martin Flowers Unit of work concept.
+Identity map, caching.
+Active record vs Data Mapper *insert image here
+Repository pattern, find, query, filter.
+Inserting data with cascading option.
+N+1 use cases (eager vs lazy loading)
+Example of using sting as e-commerce product prices. Told to be working just fine.
+

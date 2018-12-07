@@ -3,14 +3,16 @@ Anthony Ferrara
 
 Microservices gone wrong
 
-Tech flaws, monolith, *insert image
-Refactor, rebuild? Build a second instance *insert image
+Microservices are the latest architectural trend to take the PHP community by storm. Is it a good pattern? How can you use it effectively? In this talk, we'll explore real world experience building out a large scale application based around microservices: what worked really well, what didn't work at all, and what we learned along the way. Spoiler alert: we got a lot wrong.
+
+System design flaws, overengineering, monolith system - *insert image
+Refactor or rebuild? The solution was to build a second instance *insert image
 Architecture: *insert image
 Api platform, dedicated servers for HTML, behind that only API calls *image
 RabbitMq *image
 Network calls vs method calls, network is unreliable. *image
-Over rest: join and order by is huge pain.
-Infra done well.
+Over REST the joining and ordering of data is huge pain.
+Infra done well. *image
 Thumbsup for Kubernetes.
 DevX: get the local env right. *images
 Hogy vezetsz be egy uj feature-t: pl egy uj reteget a domain logicba? 5 nap vs 1 hónap.

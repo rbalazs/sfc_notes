@@ -1,0 +1,28 @@
+
+What’s a typical Symfony 4.2 application like?
+
+Nicolas Grekas 
+
+Symfony's configuration system has improved a lot in recent years. Version 4.2 brings a lot of minor improvements that all together give an even better developer experience. Let's step back and look at how we can tackle all of the most common problems using the new approaches! This will include tricks for configuring services as easily as possible, handling different environment configuration and the hugely important topic of environment variables and secrets. Best of all, we'll discuss some strategies to migrate your existing apps so you're never going to be left behind.
+
+What is a Symfony Application is built around? 
+- Runtime configurable compiled container
+- SOLID principles
+	- DI container
+- Principle: 
+	- software-as-a-service apps - https://12factor.net/ 
+	- reproducible.org - valami olyasmi, hogy meg tudj gyozodni a forgatott allomanyrol, hogy tuti megegyezik a scriptekkel
+- autowire vs autoconfigure
+- miért automatizalnak ennyi konfigolast? hogy amikor kodolj, csak a feature-re figyelj
+- bin/console debug:autowiring kiirja az aliasokat is
+- env vars
+	- '%env(API_KEY)%'
+    - when compiled it uses getenv()
+	- are env vars more secure than parameters.yml? - not really
+		- solution: put secrets into files. how to read?
+			- env var show the file relative path
+			- file_get_contents()
+			- '%env(key:CONFIG,json:file:PATH_TO_SECRET)%'
+	- use dontenv for local and default
+		- .dist fashion
+	- 
